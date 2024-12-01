@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Empleado</title>
+</head>
+<body>
+    <h1>Formulario de Empleado</h1>
+    <form action="/resultado_empleado" method="post">
+        <label for="sueldoBase">Sueldo Base:</label>
+        <input type="number" name="sueldoBase" id="sueldoBase" required><br><br>
+
+        <label for="horasExtra">Horas Extra:</label>
+        <input type="number" name="horasExtra" id="horasExtra" required><br><br>
+
+        <button type="submit">Calcular Sueldo</button>
+    </form>
+</body>
+</html>

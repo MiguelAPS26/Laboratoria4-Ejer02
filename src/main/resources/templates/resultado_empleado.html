@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de Cálculo de Sueldo</title>
+</head>
+<body>
+    <h1>Resultado de Cálculo de Sueldo</h1>
+    <p><strong>Sueldo Base:</strong> <span th:text="${sueldoBase}"></span></p>
+    <p><strong>Horas Extra:</strong> <span th:text="${horasExtra}"></span></p>
+    <p><strong>Tarifa por Hora:</strong> <span th:text="${tarifaPorHora}"></span></p>
+    <p><strong>Sueldo Total a Pagar:</strong> <span th:text="${sueldoTotal}"></span></p>
+
+    <!-- Enlace para regresar al formulario -->
+    <a href="/formulario_empleado">Regresar al formulario</a>
+</body>
+</html>
